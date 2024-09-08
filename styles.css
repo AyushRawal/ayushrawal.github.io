@@ -28,10 +28,14 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: left;
   color: #ffffff;
   flex-wrap: wrap;
 }
+
+/* .profile-img { */
+/*   align-self: center; */
+/* } */
 
 .profile-img img {
   object-fit: cover;
@@ -39,12 +43,13 @@ header {
   height: 326px;
   /* background: url(me.jpg); */
   border-radius: 153.5px;
-  margin: 50px;
+  margin: 1em;
+  margin-right: 2em;
 }
 
 .profile-text {
   flex-grow: 3;
-  width: 700px;
+  /* width: 800px; */
   max-width: fit-content;
 }
 
@@ -52,7 +57,7 @@ header {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 64px;
+  font-size: 52px;
   line-height: 77px;
   padding-bottom: 30px;
   padding-top: 30px;
@@ -64,6 +69,7 @@ header {
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
+  align-self: center;
 }
 
 /* Navigation */
@@ -180,9 +186,10 @@ nav ul li a {
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   color: #fff;
-  width: calc(33.333% - 1rem);
+  /* width: calc(33.333% - 1rem); */
+  width: 10rem;
   box-sizing: border-box;
-  width: 200px;
+  /* width: 200px; */
 }
 
 .item i {
